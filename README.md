@@ -1,3 +1,3 @@
 # git-practice
 
-This is a repository for Git practice.
+This is repository for Git practice.

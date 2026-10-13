@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  # node
+  node:
+    image: node:24
+    working_dir: /app
+    volumes:
+      - ${PWD}:/app
+    environment:
+      APP_PORT : ${APP_PORT}
+      NODE_ENV : ${NODE_ENV}
+    command: sleep infinity
